@@ -10,11 +10,10 @@ body{
 }
 
 #form{
-	margin-top:20px;
 	width: 500px;
 	display: block;
 	border: 3px solid black;
-	border-radius: 50px;
+	border-radius: 100px;
 	margin:auto;
 }
 

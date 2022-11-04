@@ -10,15 +10,17 @@ body{
 }
 
 #form{
+	margin-top:20px;
 	width: 500px;
 	display: block;
 	border: 3px solid black;
-	border-radius: 300px;
+	border-radius: 50px;
 	margin:auto;
 }
 
 #form div{
 	font-size: 20px;
+	margin-bottom: 20px;
 }
 #form div select{
 	text-align:center;
