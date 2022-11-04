@@ -1,19 +1,15 @@
 @CHARSET "UTF-8";
 
-body{	
-	background-color: beige;
-}
-
 #main{
 	text-align: center;
 	display: block;
+	background-color: beige;
 }
 
 #form{
 	width: 500px;
 	display: block;
-	border: 3px solid black;
-	border-radius: 300px;
+	border: 1px solid black;
 	margin:auto;
 }
 
@@ -21,7 +17,6 @@ body{
 	font-size: 20px;
 }
 #form div select{
-	text-align:center;
 	margin-left: 10px;
 	width:200px;
 	font-size: 15px;	
