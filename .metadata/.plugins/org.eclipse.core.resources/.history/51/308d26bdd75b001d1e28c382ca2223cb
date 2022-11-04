@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#main{
+	text-align: center;
+	display: block;
+	background-color: beige;
+}
+
+#form{
+	width: 200px;
+	display: block;
+	border: 1px solid black;
+}
+
+#form div{
+	font-size: 20px;
+}

@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>식사 선택 도구</title>
+<link href="./main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="main">
+		<h1>식사 선택 도구</h1>
+		<b>마참내!</b>
+		<div id="form">
+			<div>
+				<label>가격대</label>
+				<select>
+					<option value="-1">--가격대를 정하세요--</option>
+					<option value="1">8000이하</option>
+					<option value="2">13000이하</option>
+					<option value="3">18000이하</option>
+					<option value="4">23000이하</option>
+					<option value="5">23000이상</option>
+				</select>
+			</div>
+			<div>
+				<label>asdf</label>
+				<select>
+					<option>놀랍다</option>
+				</select>
+			</div>
+			<button>제출</button>
+		</div>
+	</div>
+</body>
+</html>

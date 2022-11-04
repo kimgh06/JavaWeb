@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+#main{
+	text-align: center;
+	display: block;
+}
+
+#form{
+	display: block;
+}

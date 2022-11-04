@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>식사 선택 도구</title>
+<link href ="./main.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+	<h1 id="main">식사 선택 도구</h1>
+	<div id="main">
+		<b>마참내!</b>
+		<select>
+			<option>즐겁다</option>
+		</select>
+	</div>
+</body>
+</html>
