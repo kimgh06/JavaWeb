@@ -9,9 +9,13 @@ body{
 	display: block;
 }
 
+#main div{	
+	margin:20px;
+}
+
 #form{
-	margin-top:20px;
-	width: 500px;
+	background-color:white;
+	width: 400px;
 	display: block;
 	border: 3px solid black;
 	border-radius: 50px;

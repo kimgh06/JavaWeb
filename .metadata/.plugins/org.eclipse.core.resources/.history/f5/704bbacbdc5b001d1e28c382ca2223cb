@@ -14,7 +14,6 @@ body{
 }
 
 #form{
-	background-color:white;
 	width: 400px;
 	display: block;
 	border: 3px solid black;

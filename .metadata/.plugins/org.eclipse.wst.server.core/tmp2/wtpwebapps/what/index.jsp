@@ -10,7 +10,9 @@
 <body>
 	<div id="main">
 		<h1>식사 선택 도구</h1>
-		<b>선택하세요..</b>
+		<div>
+		<b>선택하세요.</b>
+		</div>
 		<form id="form">
 			<div>
 				<label>가격대 :</label> <select>
