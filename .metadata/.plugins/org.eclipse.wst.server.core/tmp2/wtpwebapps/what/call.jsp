@@ -10,11 +10,13 @@
 	JSN j = new JSN();
 	if(price.equals("-1")||spicy.equals("-1")||hot.equals("-1")||soup.equals("-1")){
 		request.getRequestDispatcher("./index.jsp").forward(request, response);
-		price = price.equals("-1") ? "-1": price;
-		spicy = spicy.equals("-1") ? "-1": spicy;
-		hot = hot.equals("-1") ? "-1": hot;
-		soup = soup.equals("-1") ? "-1": soup;
+		%>
+			document.getElement("price").value ="<%=price%>";
+			document.getElement("spicy").value ="<%=spicy%>";
+			document.getElement("hot").value ="<%=hot%>";
+			document.getElement("soup").value ="<%=soup%>";
+		<%
 	}
 	else
-		out.print("당신이 고른 것들 : "+j.print(price, spicy, hot, soup));
+		out.print("chosen elements : "+j.print(price, spicy, hot, soup));
 %>

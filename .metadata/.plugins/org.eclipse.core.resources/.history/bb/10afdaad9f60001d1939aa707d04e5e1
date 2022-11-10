@@ -18,5 +18,5 @@
 		<%
 	}
 	else
-		out.print("chosen elements : "+j.print(price, spicy, hot, soup));
+		out.print("당신이 고른 것들 : "+j.print(price, spicy, hot, soup));
 %>
