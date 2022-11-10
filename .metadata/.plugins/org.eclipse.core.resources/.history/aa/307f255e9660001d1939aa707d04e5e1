@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<%@page import="json.JSN"  %>
+<%
+	JSN j = new JSN();
+	String s = j.print();
+	out.print(s);
+%>

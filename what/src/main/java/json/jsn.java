@@ -1,12 +1,12 @@
 package json;
 
-public class jsn {
+public class JSN {
 	String [][]arr = {
-			
+			{"이름", "가격", ""},
 	};
 	
-	public static void print() {
-		System.out.println("hello");
+	public static String print(String p, String s, String h, String so) {
+		return p + " " + s + " " + h + " " + so;
 	}
 }
 
