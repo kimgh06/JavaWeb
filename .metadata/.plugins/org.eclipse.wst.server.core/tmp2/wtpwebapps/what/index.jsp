@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
+<%@page import="json.jsn"  %>
 <html>
 <head>
 <meta charset="EUC-KR">
@@ -13,7 +14,7 @@
 		<div>
 		<b>선택하세요.</b>
 		</div>
-		<form id="form">
+		<form id="form" action="<% request.getContextPath() %>">
 			<div>
 				<label>가격대 :</label> <select>
 					<option value="-1">--가격대를 정하세요--</option>

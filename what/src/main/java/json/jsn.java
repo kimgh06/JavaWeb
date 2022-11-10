@@ -1,7 +1,13 @@
 package json;
 
 public class jsn {
-public static void main(String[] args) {
-	System.out.println("hello");
+	String [][]arr = {
+			
+	};
+	
+	public static void print() {
+		System.out.println("hello");
+	}
 }
-}
+
+
