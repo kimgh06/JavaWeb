@@ -48,7 +48,7 @@
 					<option value="1">있음</option>
 				</select>
 			</div>
-			<button type = "submit" value = "submit">제출</button>
+			<button>제출</button>
 		</form>
 	</div>
 </body>

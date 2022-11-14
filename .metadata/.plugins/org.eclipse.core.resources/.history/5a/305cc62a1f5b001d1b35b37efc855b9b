@@ -1,6 +1,0 @@
-@CHARSET "UTF-8";
-
-#main{
-	text-align: center;
-	display: flex;
-}
