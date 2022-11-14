@@ -13,16 +13,16 @@ public class JSN {
 		this.so =so;
 	}
 	
-	public String pi() {
+	String pi() {
 		return p;
 	}
-	public String si() {
+	String si() {
 		return s;
 	}
-	public String hi() {
+	String hi() {
 		return h;
 	}
-	public String soi() {
+	String soi() {
 		return so;
 	}
 }

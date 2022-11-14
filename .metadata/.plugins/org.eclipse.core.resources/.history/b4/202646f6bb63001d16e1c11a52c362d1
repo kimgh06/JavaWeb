@@ -22,7 +22,7 @@
 		<%
 	}
 	else{
-		out.println(j.pi());
+		out.println(j.p());
 	}
 	
 %>
