@@ -32,9 +32,7 @@
 				"<div>" + j.hi() +"</div>"+
 				"<div>" + j.soi() +"</div>"+
 				"</div>"+
-				"<a href = ./index.jsp>"+
 				"<button>되돌아가기</button>"+
-				"</a>"+
 				"</div>"
 				);
 	}

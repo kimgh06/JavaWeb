@@ -9,7 +9,7 @@ body{
 	display: block;
 }
 
-#maindiv{	
+#main div{	
 	margin:20px;
 	background-color:white;
 	width: 400px;
@@ -25,7 +25,6 @@ div{
 }
 
 button{
-	margin: 20px;
 	width: 100px;
 	height: 40px;
 	border:none;

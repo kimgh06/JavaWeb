@@ -26,11 +26,15 @@
 	else{
 		out.println("<div id='main'>"+
 				"<h1>식사 선택 도구</h1>"+
+				"<div id='maindiv'>"+
 				"<div>" + j.pi() +"</div>"+
 				"<div>" + j.si() +"</div>"+
 				"<div>" + j.hi() +"</div>"+
 				"<div>" + j.soi() +"</div>"+
+				"</div>"+
+				"<a href = ./index.jsp>"+
 				"<button>되돌아가기</button>"+
+				"</a>"+
 				"</div>"
 				);
 	}

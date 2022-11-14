@@ -9,14 +9,8 @@ body{
 	display: block;
 }
 
-#maindiv{	
+#main div{	
 	margin:20px;
-	background-color:white;
-	width: 400px;
-	display: block;
-	border: 3px solid black;
-	border-radius: 50px;
-	margin:auto;
 }
 
 div{
@@ -25,7 +19,6 @@ div{
 }
 
 button{
-	margin: 20px;
 	width: 100px;
 	height: 40px;
 	border:none;
