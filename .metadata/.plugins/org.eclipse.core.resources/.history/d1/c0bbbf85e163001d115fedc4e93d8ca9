@@ -62,6 +62,7 @@ public class JSN {
 		default:
 			return "";
 		}
+		return so;
 	}
 }
 

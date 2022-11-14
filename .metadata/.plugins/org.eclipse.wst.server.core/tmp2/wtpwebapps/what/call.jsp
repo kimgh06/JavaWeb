@@ -2,7 +2,11 @@
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <%@page import="json.JSN"  %>
+<head>
+<meta charset="EUC-KR">
+<title>식사 선택 도구</title>
 <link href="./call.css?after" rel="stylesheet" type="text/css">
+</head>
 <%
 	String price = request.getParameter("price");
 	String spicy = request.getParameter("spicy");
@@ -31,7 +35,7 @@
 				"<div>" + j.si() +"</div>"+
 				"<div>" + j.hi() +"</div>"+
 				"<div>" + j.soi() +"</div>"+
-				"</div>"+
+				"을 선택하셨습니다.</div>"+
 				"<a href = ./index.jsp>"+
 				"<button>되돌아가기</button>"+
 				"</a>"+

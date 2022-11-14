@@ -42,26 +42,10 @@ public class JSN {
 		}
 	}
 	public String hi() {
-		switch(h) {
-		case "L":
-			return "뜨겁지 않음";
-		case "M":
-			return "따뜻함";
-		case "H":
-			return "뜨거움";
-		default:
-			return "";
-		}
+		return h;
 	}
 	public String soi() {
-		switch(so) {
-		case "0":
-			return "국물 없음";
-		case "1":
-			return "국물 있음";
-		default:
-			return "";
-		}
+		return so;
 	}
 }
 
