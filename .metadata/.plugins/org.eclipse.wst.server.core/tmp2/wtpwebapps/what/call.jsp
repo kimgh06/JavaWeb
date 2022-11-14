@@ -2,6 +2,7 @@
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <%@page import="json.JSN"  %>
+<link href="./call.css?after" rel="stylesheet" type="text/css">
 <%
 	String price = request.getParameter("price");
 	String spicy = request.getParameter("spicy");
@@ -18,11 +19,20 @@
 			document.getElement("hot").value = <%=hot%>;
 			document.getElement("soup").value =<%=soup%>;
 		}
+		console.log("asdf");
 		</script>
 		<%
 	}
 	else{
-		out.println(j.pi());
+		out.println("<div id='main'>"+
+				"<h1>식사 선택 도구</h1>"+
+				"<div>" + j.pi() +"</div>"+
+				"<div>" + j.si() +"</div>"+
+				"<div>" + j.hi() +"</div>"+
+				"<div>" + j.soi() +"</div>"+
+				"<button>되돌아가기</button>"+
+				"</div>"
+				);
 	}
 	
 %>

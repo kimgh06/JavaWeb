@@ -2,7 +2,7 @@
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <%@page import="json.JSN"  %>
-<link href="./call.css?after" rel="stylesheet" type="text/css">
+<link href="./main.css?after" rel="stylesheet" type="text/css">
 <%
 	String price = request.getParameter("price");
 	String spicy = request.getParameter("spicy");
