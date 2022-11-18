@@ -26,11 +26,14 @@ div{
 
 button{
 	margin: 20px;
-	width: 140px;
+	width: 100px;
 	height: 40px;
 	border:none;
 	border-radius: 20px;	
 	font-size: 15px;
 	background-color: skyblue;
 	margin-bottom: 10px;
+}
+a{
+	width: 20px;
 }

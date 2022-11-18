@@ -25,7 +25,6 @@ div{
 }
 
 button{
-	margin: 20px;
 	width: 140px;
 	height: 40px;
 	border:none;

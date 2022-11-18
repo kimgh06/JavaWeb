@@ -24,9 +24,9 @@ div{
 	margin-bottom: 20px;
 }
 
-button{
+a{
 	margin: 20px;
-	width: 140px;
+	width: 100px;
 	height: 40px;
 	border:none;
 	border-radius: 20px;	

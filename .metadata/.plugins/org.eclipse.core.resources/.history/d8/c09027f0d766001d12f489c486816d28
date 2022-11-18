@@ -1,7 +1,5 @@
 package json;
 
-import java.lang.reflect.Array;
-
 public class JSN {
 	String p;
 	String s;
@@ -66,16 +64,6 @@ public class JSN {
 			return "국물 있음";
 		default:
 			return "";
-		}
-	}
-	public String menu() {
-		String menu[][];
-		int p =0,j;
-		for(int i = 0; i<str.length;i++) {
-			for(j = 0; j<5;j++) {
-				if(str[i][j] == )
-				
-			}
 		}
 	}
 }
