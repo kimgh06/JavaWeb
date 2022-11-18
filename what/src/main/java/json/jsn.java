@@ -5,6 +5,9 @@ public class JSN {
 	String s;
 	String h;
 	String so;
+	String str[][]= {
+			
+	};
 	
 	public JSN(String p, String s, String h, String so) {
 		this.p = p;

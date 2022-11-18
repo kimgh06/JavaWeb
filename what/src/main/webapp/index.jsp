@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
-<%@page import="json.JSN"  %>
+<%@page import="json.JSN"%>
 <html>
 <head>
 <meta charset="EUC-KR">
@@ -12,11 +12,14 @@
 	<div id="main">
 		<h1>식사 선택 도구</h1>
 		<div>
-		<b>선택하세요.</b>
+			<b>선택하세요.</b>
 		</div>
-		<form id="form" action="<% request.getContextPath(); %>/what/call.jsp" method="post">
+		<form id="form" action="<%
+				request.getContextPath();%>/what/call.jsp"
+			method="post">
 			<div>
-				<label>가격대 :</label> <select name = "price" onchange="document.productForm.submit()">
+				<label>가격대 :</label> <select name="price"
+					onchange="document.productForm.submit()">
 					<option value="-1">--가격대를 정하세요--</option>
 					<option value="1">8000원 이하</option>
 					<option value="2">13000원 이하</option>
@@ -26,7 +29,8 @@
 				</select>
 			</div>
 			<div>
-				<label>매운 정도 :</label> <select name = "spicy" onchange="document.productForm.submit()">
+				<label>매운 정도 :</label> <select name="spicy"
+					onchange="document.productForm.submit()">
 					<option value="-1">--맵기를 정하세요--</option>
 					<option value="L">맵지 않음</option>
 					<option value="M">적당히 매움</option>
@@ -34,7 +38,8 @@
 				</select>
 			</div>
 			<div>
-				<label>뜨거운 정도 :</label> <select name = "hot" onchange="document.productForm.submit()">
+				<label>뜨거운 정도 :</label> <select name="hot"
+					onchange="document.productForm.submit()">
 					<option value="-1">--뜨거운 정도를 정하세요--</option>
 					<option value="L">뜨겁지 않음</option>
 					<option value="M">따뜻함</option>
@@ -42,7 +47,8 @@
 				</select>
 			</div>
 			<div>
-				<label>국물 유무 :</label> <select name = "soup" onchange="document.productForm.submit()">
+				<label>국물 유무 :</label> <select name="soup"
+					onchange="document.productForm.submit()">
 					<option value="-1">--국물 유무를 정하세요--</option>
 					<option value="0">없음</option>
 					<option value="1">있음</option>

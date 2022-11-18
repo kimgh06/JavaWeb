@@ -14,18 +14,11 @@
 	String soup = request.getParameter("soup");
 	JSN j = new JSN(price, spicy, hot, soup);
 	if(price.equals("-1")||spicy.equals("-1")||hot.equals("-1")||soup.equals("-1")){
-		request.getRequestDispatcher("./index.jsp").forward(request, response);
-		%>
-		<script>
-		function name() {			
-			document.getElement("price").value =<%=price%>;
-			document.getElement("spicy").value =<%=spicy%>;
-			document.getElement("hot").value = <%=hot%>;
-			document.getElement("soup").value =<%=soup%>;
-		}
-		console.log("asdf");
-		</script>
-		<%
+
+	    out.println("<script>");
+	    out.println("alert('값을 제대 입력하세요.');");
+	    out.println("history.back();");
+	    out.println("</script>");
 	}
 	else{
 		out.println("<div id='main'>"+
