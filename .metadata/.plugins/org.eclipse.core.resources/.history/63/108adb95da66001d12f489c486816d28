@@ -88,9 +88,8 @@ public class JSN {
 				}
 			}
 			if(q) {
-				return menus[(int)((Math.random()*10000)%menus.length)][0];
+				return menus[(int)((Math.random()*10000)%menus.length)];
 			}
 		}
-		return "";
 	}
 }

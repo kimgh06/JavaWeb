@@ -91,6 +91,6 @@ public class JSN {
 				return menus[(int)((Math.random()*10000)%menus.length)][0];
 			}
 		}
-		return "";
+		return;
 	}
 }

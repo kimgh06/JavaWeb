@@ -16,8 +16,8 @@
 	if(price.equals("-1")||spicy.equals("-1")||hot.equals("-1")||soup.equals("-1")){
 
 	    out.println("<script>");
-	    out.println("alert('값을 제대로 입력하세요.');");
 	    out.println("history.back();");
+	    out.println("alert('값을 제대로 입력하세요.');");
 	    out.println("</script>");
 	}
 	else{
@@ -29,7 +29,6 @@
 				"<div>" + j.hi() +"</div>"+
 				"<div>" + j.soi() +"</div>"+
 				"을 선택하셨습니다.</div>"+
-				j.menu()+
 				"<a href = ./index.jsp>"+
 				"<button>되돌아가기</button>"+
 				"</a>"+

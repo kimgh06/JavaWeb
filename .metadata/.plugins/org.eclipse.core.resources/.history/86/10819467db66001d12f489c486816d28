@@ -29,7 +29,6 @@
 				"<div>" + j.hi() +"</div>"+
 				"<div>" + j.soi() +"</div>"+
 				"을 선택하셨습니다.</div>"+
-				j.menu()+
 				"<a href = ./index.jsp>"+
 				"<button>되돌아가기</button>"+
 				"</a>"+
