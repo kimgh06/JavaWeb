@@ -17,6 +17,7 @@
 	String soup = request.getParameter("soup");
 	JSN j = new JSN(price, spicy, hot, soup);
 	if(price.equals("-1")||spicy.equals("-1")||hot.equals("-1")||soup.equals("-1")){
+
 	    out.println("<script>");
 	    out.println("alert('값을 제대로 입력하세요.');");
 	    out.println("history.back();");
@@ -31,7 +32,6 @@
 				"<div>" + j.hi() +"</div>"+
 				"<div>" + j.soi() +"</div>"+
 				"<div>을 선택하셨습니다.</div>"+
-				"그에 맞는 "+
 				j.menu()+
 				"을(를) 추천합니다.</div>"+
 				"<a href = ./index.jsp>"+
