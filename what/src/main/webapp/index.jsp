@@ -9,6 +9,7 @@
 <link href="./main.css?after" rel="stylesheet" type="text/css">
 </head>
 <body>
+<noscript>정윤, 강현 만듬</noscript>
 	<div id="main">
 		<h1>식사 선택 도구</h1>
 		<div>

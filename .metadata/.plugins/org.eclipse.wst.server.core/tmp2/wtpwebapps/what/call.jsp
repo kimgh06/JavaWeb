@@ -8,7 +8,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link href="./call.css?after" rel="stylesheet" type="text/css">
+<link href="./call.css?ver=1" rel="stylesheet" type="text/css">
 </head>
 <%
 	String price = request.getParameter("price");
@@ -30,10 +30,10 @@
 				"<div>" + j.si() +"</div>"+
 				"<div>" + j.hi() +"</div>"+
 				"<div>" + j.soi() +"</div>"+
-				"<div>을 선택하셨습니다.</div>"+
-				"그에 맞는 "+
+				"<div>을 선택하셨습니다.</div></div>"+
+				"<div id='maindiv'>"+
 				j.menu()+
-				"을(를) 추천합니다.</div>"+
+				"</div>"+
 				"<a href = ./index.jsp>"+
 				"<button>되돌아가기</button>"+
 				"</a>"+

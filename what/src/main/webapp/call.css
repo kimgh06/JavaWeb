@@ -6,17 +6,18 @@ body{
 
 #main{
 	text-align: center;
+	margin:auto;
 	display: block;
+	width:400px;
 }
 
 #maindiv{	
-	margin:20px;
 	background-color:white;
 	width: 400px;
 	display: block;
 	border: 3px solid black;
 	border-radius: 50px;
-	margin:auto;
+	margin-bottom: 20px;
 }
 
 div{
@@ -25,7 +26,6 @@ div{
 }
 
 button{
-	margin: 20px;
 	width: 140px;
 	height: 40px;
 	border:none;
