@@ -7,9 +7,14 @@ public class JSN {
 	String s;
 	String h;
 	String so;
-	String str[][] = {
-
-	};
+	String str[][] = new String[][] { 
+			{ "돌솥비빔밥", "1", "M", "H", "0" }, 
+			{ "물냉면", "2", "L", "L", "0" },
+			{ "비빔냉면", "1", "M", "L", "1" }, 
+			{ "돼지국밥", "2", "M", "H", "0" }, 
+			{ "육회비빔밥", "2", "L", "L", "1" },
+			{ "순대국밥", "2", "L", "H", "0" }, 
+			};
 
 	public JSN(String p, String s, String h, String so) {
 		this.p = p;
@@ -73,24 +78,24 @@ public class JSN {
 	}
 
 	public String menu() {
-		String menus[][] = null;
+		String menus[][] = new String[str.length][];
 		int o = 0;
-		boolean q =false;
+		boolean q = false;
 		for (int i = 0; i < str.length; i++) {
-			if (str[i][1] == p) {
-				if (str[i][2] == s) {
-					if (str[i][3] == h) {
-						if (str[i][4] == so) {
-							menus[o] = str[i];
+			if (str[i][1].equals(p)) {
+				if (str[i][2].equals(s)) {
+					if (str[i][3].equals(h)) {
+						if (str[i][4].equals(so)) {
 							q = true;
+							menus[o++] = str[i];
 						}
 					}
 				}
 			}
-			if(q) {
-				return menus[(int)((Math.random()*10000)%menus.length)][0];
+			if (q) {
+				return menus[(int) ((Math.random() * 10000) % o)][0];
 			}
 		}
-		return "";
+		return "\"없\"";
 	}
 }

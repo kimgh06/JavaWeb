@@ -4,7 +4,10 @@
 <%@page import="json.JSN"  %>
 <head>
 <meta charset="EUC-KR">
-<title>식사 선택 도구</title>
+<title>식사 선택 도구</title><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 <link href="./call.css?after" rel="stylesheet" type="text/css">
 </head>
 <%
@@ -28,8 +31,9 @@
 				"<div>" + j.si() +"</div>"+
 				"<div>" + j.hi() +"</div>"+
 				"<div>" + j.soi() +"</div>"+
-				"을 선택하셨습니다.</div>"+
+				"<div>을 선택하셨습니다.</div>"+
 				j.menu()+
+				"을(를) 추천합니다.</div>"+
 				"<a href = ./index.jsp>"+
 				"<button>되돌아가기</button>"+
 				"</a>"+

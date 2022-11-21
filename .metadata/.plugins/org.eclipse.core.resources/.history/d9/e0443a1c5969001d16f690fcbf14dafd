@@ -1,0 +1,101 @@
+package json;
+
+import java.lang.reflect.Array;
+
+public class JSN {
+	String p;
+	String s;
+	String h;
+	String so;
+	String str[][] = new String[][]{
+		  {"돌솥비빔밥","1","M","H","1"},
+          {"물냉면","2","L","L","0"},
+         {"비빔냉면","1","M","L","1"},
+         {"돼지국밥","2","M","H","0"},
+          {"육회비빔밥","2","L","L","1"},
+          {"순대국밥","2","L","H","0"},
+	};
+
+	public JSN(String p, String s, String h, String so) {
+		this.p = p;
+		this.s = s;
+		this.h = h;
+		this.so = so;
+	}
+
+	public String pi() {
+		switch (p) {
+		case "1":
+			return "8000원 이하";
+		case "2":
+			return "13000원 이하";
+		case "3":
+			return "18000원 이하";
+		case "4":
+			return "23000원 이하";
+		case "5":
+			return "23000원 이상";
+		default:
+			return "";
+		}
+	}
+
+	public String si() {
+		switch (s) {
+		case "L":
+			return "맵지 않음";
+		case "M":
+			return "적당히 매움";
+		case "H":
+			return "매움";
+		default:
+			return "";
+		}
+	}
+
+	public String hi() {
+		switch (h) {
+		case "L":
+			return "뜨겁지 않음";
+		case "M":
+			return "따뜻함";
+		case "H":
+			return "뜨거움";
+		default:
+			return "";
+		}
+	}
+
+	public String soi() {
+		switch (so) {
+		case "0":
+			return "국물 없음";
+		case "1":
+			return "국물 있음";
+		default:
+			return "";
+		}
+	}
+
+	public String menu() {
+		String menus[][] = new String[str.length][];
+		int o = 0;
+		boolean q =false;
+		for (int i = 0; i < str.length; i++) {
+			if (str[i][1] == p) {
+				if (str[i][2] == s) {
+					if (str[i][3] == h) {
+						if (str[i][4] == so) {
+							q = true;
+							menus[o] = str[i];
+						}
+					}
+				}
+			}
+			if(q) {
+				return menus[(int)((Math.random()*10000)%menus.length)][0];
+			}
+		}
+		return "\"없\"";
+	}
+}
