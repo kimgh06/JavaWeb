@@ -10,6 +10,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <link href="./call.css?ver=1" rel="stylesheet" type="text/css">
 </head>
+<noscript>Á¤À±, °­Çö ¸¸µë</noscript>
 <%
 	String price = request.getParameter("price");
 	String spicy = request.getParameter("spicy");
