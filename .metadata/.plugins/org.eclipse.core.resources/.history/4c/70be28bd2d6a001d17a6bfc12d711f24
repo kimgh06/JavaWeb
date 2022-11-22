@@ -3,11 +3,10 @@ package json;
 import java.lang.reflect.Array;
 
 public class JSN {
-	String p;// 가격
-	String s;// 매운정도
-	String h;// 뜨거운정도
-	String so;// 국물 유무
-	// {이름, 가격, 매운 정도, 뜨거운 정도, 국물 유무}
+	String p;
+	String s;
+	String h;
+	String so;
 	String str[][] = new String[][] { { "돌솥비빔밥", "1", "M", "H", "0" }, { "물냉면", "2", "L", "L", "1" },
 			{ "비빔냉면", "1", "M", "L", "0" }, { "돼지국밥", "2", "M", "H", "1" }, { "육회비빔밥", "2", "L", "L", "0" },
 			{ "순대국밥", "2", "L", "H", "1" }, { "뼈해장국", "2", "M", "H", "1" }, { "떡볶이", "1", "M", "H", "0" },
